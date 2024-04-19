@@ -40,8 +40,8 @@ public class Punto {
         return Math.sqrt(this.x * this.x + this.y *this.y);
     }
     
-    // public double fase() { 
-    //     double aux = (double) (this.y) / this.x ;
-    //     return Math.atan(aux);
-    // }
+     public double fase() { 
+         double aux = (double) (this.y) / this.x ;
+         return Math.atan(aux);
+     }
 }
